@@ -6,7 +6,7 @@ import numpy as np
 model = tf.keras.models.load_model('final_model.h5')
   
 # define a video capture object
-vid = cv2.VideoCapture(0)
+vid = cv2.VideoCapture("p002_c2.avi")
   
 while(True):
       
